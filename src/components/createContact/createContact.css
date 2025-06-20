@@ -1,0 +1,74 @@
+.form-edit-contact {
+  margin: 2rem auto;
+  padding: 2rem;
+  inline-size: 80%;
+  background-color: #fff;
+  border: 2px solid #ada0a0;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-title {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #555;
+}
+
+.form-edit-contact-input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-edit-contact-input:focus {
+  border-color: #888;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+  outline: none;
+}
+
+.form-edit-contact-button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4b5563;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-edit-contact-button:hover {
+  background-color: #374151;
+}
+
+
+.form-edit-contact-error {
+  color: rgb(191, 47, 47);
+  font-size: clamp(12px, 2vw, 14px);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .form-edit-contact {
+    inline-size: 85%;
+    margin: 15px auto;
+    padding: 20px 10px;
+  }
+}

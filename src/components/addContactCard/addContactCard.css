@@ -1,0 +1,16 @@
+.contact-card--add {
+  border: 2px dashed #6b6666f7;
+  cursor: pointer;
+  text-align: center;
+  color: #555;
+}
+
+.contact-card--add:hover {
+  background: #f9f9f9;
+}
+
+.add-icon {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 8px;
+}
