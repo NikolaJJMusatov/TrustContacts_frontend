@@ -1,0 +1,50 @@
+.contacts-list {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: stretch;
+}
+
+.contacts-wrapper {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.contacts-search {
+  width: 60%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  border: 2px solid #ada0a0;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contacts-search-info {
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0;
+  color: #555;
+  font-size: 1.1rem;
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+@media (min-width: 480px) {
+  .contacts-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .contacts-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .contacts-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
