@@ -43,8 +43,11 @@
 
 ## ⭐
 
-1. Деплой приложения: фронтенд на Vercel, бэкенд на Render, БД - Mongo Atlas.
-ссылка на приложение - 
+1. Деплой приложения: 
+
+- 🧠 Backend API (NestJS): [https://trustcontacts.onrender.com](https://trustcontacts.onrender.com)
+- 💻 Frontend (Vite + React): [https://trust-contacts.vercel.app](https://trust-contacts.vercel.app)
+
 2. Nest.js на бэке
 
 ## Что можно лучше
@@ -55,3 +58,4 @@
 2. визуализация ошибок на фронтенде
 3. запаковать все в Docker
 4. дизайн фронтенда
+5. SEO в HEAD
